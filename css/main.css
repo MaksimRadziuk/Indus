@@ -650,6 +650,11 @@ section.brands .brandsSlider .swipe-slide {
     top: 79%;
   }
 }
+@media all and (max-width: 1100px) {
+  section.main .advBlock p {
+    font-size: 10px;
+  }
+}
 
 
 

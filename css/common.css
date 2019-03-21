@@ -494,6 +494,28 @@ footer .policies a:hover {
     height: 480px;
   }
 }
+@media all and (max-height: 870px) {
+  header .hidden_menu ul li.main {
+    margin-top: 20px;
+  }
+  header .hidden_menu ul li.main a {
+    font-size: 16px;
+  }
+  header .hidden_menu ul li {
+    margin-top: 10px;
+  }
+  header .hidden_menu ul li a {
+    font-size: 14px;
+  }
+}
+@media all and (max-height: 740px) {
+  header .hidden_menu ul li.main {
+    margin-top: 15px;
+  }
+  header .hidden_menu ul li {
+    margin-top: 8px;
+  }
+}
 @media all and (max-height: 700px) {
   section.map {
     height: 430px;
@@ -503,5 +525,20 @@ footer .policies a:hover {
   }
   section.map .contacts_wrap {
     padding-left: 40px;
+  }
+  header .hidden_menu ul li a {
+    font-size: 12px;
+  }
+  header .hidden_menu ul li.main a {
+    font-size: 14px;
+  }
+  header .hidden_menu ul li {
+    margin-top: 3px;
+  }
+  header .hidden_menu ul li.main {
+    margin-top: 8px;
+  }
+  header .hidden_menu {
+    padding-top: 15px;
   }
 }
