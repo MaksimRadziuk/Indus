@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>ИНДУС Продукты</title>
+	<meta name="description" content="">
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="libs/swiper/swiper.min.css">
+	<link rel="stylesheet" href="libs/owlcarousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="libs/owlcarousel/owl.theme.default.min.css">
+
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+
+<div class="pageWrap">
+	<div id="popup_bcg"></div>
+	<header>
+		<div class="topbar">
+			<div class="logo"><a href="index.html"><img src="img/logo.png" alt="Logo"></a></div>
+			<form action="">
+				<div class="input_wrap">
+					<input type="text" placeholder="Поиск по каталогу">
+					<button><i class="fa fa-search" aria-hidden="true"></i></button>
+				</div>
+			</form>
+			<div class="adress">
+				<i class="fa fa-map-marker" aria-hidden="true"></i>
+				<p>г. Москва, ул. Новокосинская 14 к7</p>
+			</div>
+			<div class="phone">
+				<i class="fa fa-phone" aria-hidden="true"></i>
+				<a href="tel:+89778802693">+7 (977) 880-26-93</a>
+			</div>
+			<div class="favoriate"><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></div>
+			<div class="basket_wrap">
+				<a href="#">
+					<span class="icon">
+						<i class="fa fa-shopping-basket" aria-hidden="true"></i>
+					</span>
+					<span class="description">
+						<span class="special" id="goodsAmount">25</span>
+						<span> товаров</span><br>
+						<span>на сумму </span>
+						<span class="special" id="goodsCost">150 000</span>
+						<span> руб.</span>
+					</span>
+				</a>
+			</div>
+		</div>
+		<div class="navbar">
+			<ul class="nav">
+				<li><a href="#" id="hidden_menuTrigger">Каталог <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+				</li>
+				<li><a href="delivery.html">Доставка и оплата</a></li>
+				<li><a href="about.html">О магазине</a></li>
+				<li><a href="blog.html">Блог</a></li>
+				<li><a href="contacts.html">Контакты</a></li>
+			</ul>
+			<div class="hidden_menu">
+				<ul>
+					<li class="main"><a href="#">Традо</a></li>
+					<li><a href="#">Имунная система</a></li>
+					<li><a href="#">Сердечно-сосудистая система</a></li>
+					<li><a href="#">Корреция фигуры и веса</a></li>
+					<li><a href="#">Сон и энергия</a></li>
+					<li><a href="#">Здоровье женщин</a></li>
+					<li><a href="#">Здоровье мужчин</a></li>
+					<li><a href="#">Дыхание и легкие</a></li>
+					<li><a href="#">Желудок и кишечник</a></li>
+					<li><a href="#">Простуда и грипп</a></li>
+					<li><a href="#">Выделительная система</a></li>
+					<li><a href="#">Кости, мышцы и суставы</a></li>
+					<li><a href="#">Детоксикация организма</a></li>
+					<li><a href="#">Сила волос</a></li>
+					<li><a href="#">Витамины и микроэлементы</a></li>
+				</ul>
+				<ul>
+					<li class="main"><a href="#">Специи и травы</a></li>
+					<li class="main"><a href="#">Смесь специй (масалы)</a></li>
+					<li class="main"><a href="#">Рис</a></li>
+					<li><a href="#">Басмати</a></li>
+					<li><a href="#">Тайский рис</a></li>
+					<li class="main"><a href="#">Соусы и пасты</a></li>
+					<li class="main"><a href="#">Зерно, семена, мука</a></li>
+					<li><a href="#">Каши</a></li>
+					<li class="main"><a href="#">Лапша и вермишель</a></li>
+					<li><a href="#">Ширатаки</a></li>
+					<li class="main"><a href="#">Веганские продукты</a></li>
+					<li class="main"><a href="#">Консервированые овощи и фрукты</a></li>
+				</ul>
+				<ul>
+					<li class="main"><a href="#">Кэроб</a></li>
+					<li class="main"><a href="#">Кокосовое молоко</a></li>
+					<li class="main"><a href="#">Масла</a></li>
+					<li class="main"><a href="#">Кофе</a></li>
+					<li class="main"><a href="#">Чаи</a></li>
+					<li><a href="#">Чай мате</a></li>
+					<li class="main"><a href="#">Сладости</a></li>
+					<li class="main"><a href="#">Снеки</a></li>
+					<li class="main"><a href="#">Сахарозаменители</a></li>
+					<li><a href="#">Стевия</a></li>
+					<li><a href="#">Фит парад</a></li>
+					<li class="main"><a href="#">Арабская парфюмерия</a></li>
+				</ul>
+				<ul>
+					<li class="main"><a href="#">Аюрведическая продукция</a></li>
+					<li class="main"><a href="#">Аюрведическая косметика</a></li>
+					<li><a href="#">Бальзам для губ</a></li>
+					<li><a href="#">Для ног</a></li>
+					<li><a href="#">Кожа лица</a></li>
+					<li><a href="#">Крем для тела</a></li>
+					<li><a href="#">Хна для волос</a></li>
+					<li><a href="#">Гель для умывания</a></li>
+					<li><a href="#">Гель-скраб</a></li>
+					<li><a href="#">Лосьон для лица</a></li>
+					<li><a href="#">Маска для лица</a></li>
+					<li><a href="#">Кондиционеры для волос</a></li>
+					<li><a href="#">Шампуни</a></li>
+					<li><a href="#">Маска-крем</a></li>
+					<li><a href="#">Масло для волос</a></li>
+				</ul>
+				<ul>
+					<li class="main"><a href="#">Благовония</a></li>
+					<li class="main"><a href="#">Напитки / жидкие продукты</a></li>
+					<li class="main"><a href="#">Тайская кухня</a></li>
+					<li class="main"><a href="#">Продукты без сахара</a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	<section class="main">
+		<div class="mainSlider swiper-container">
+		    <div class="swiper-wrapper">
+		        <div class="swiper-slide slide1">
+		        	<div class="title">У нас есть все</div>
+		        	<div class="title_description">для вашей тайской кухни</div>
+		        	<ul>
+		        		<li>Том Ям</li>
+		        		<li>Тайские фрукты</li>
+		        		<li>Кокосовое молоко</li>
+		        		<li>Тайский рис</li>
+		        		<li>Соус Пад Тай</li>
+		        	</ul>
+		        	<div class="finalWords">и многое другое</div>
+		        	<div class="price">
+		        		<span>от</span>
+		        		<span class="circle">
+		        			<span class="number">80</span>
+		        			<span class="money">рублей</span>
+		        		</span>
+		        	</div>
+		        </div>
+		        <div class="swiper-slide slide2">
+		        	<div class="title">У нас есть все</div>
+		        	<div class="title_description">для вашей тайской кухни</div>
+		        	<ul>
+		        		<li>Том Ям</li>
+		        		<li>Тайские фрукты</li>
+		        		<li>Кокосовое молоко</li>
+		        		<li>Тайский рис</li>
+		        		<li>Соус Пад Тай</li>
+		        	</ul>
+		        	<div class="finalWords">и многое другое</div>
+		        	<div class="price">
+		        		<span>от</span>
+		        		<span class="circle">
+		        			<span class="number">80</span>
+		        			<span class="money">рублей</span>
+		        		</span>
+		        	</div>
+		        </div>
+		        <div class="swiper-slide slide3">
+		        	<div class="title">У нас есть все</div>
+		        	<div class="title_description">для вашей тайской кухни</div>
+		        	<ul>
+		        		<li>Том Ям</li>
+		        		<li>Тайские фрукты</li>
+		        		<li>Кокосовое молоко</li>
+		        		<li>Тайский рис</li>
+		        		<li>Соус Пад Тай</li>
+		        	</ul>
+		        	<div class="finalWords">и многое другое</div>
+		        	<div class="price">
+		        		<span>от</span>
+		        		<span class="circle">
+		        			<span class="number">80</span>
+		        			<span class="money">рублей</span>
+		        		</span>
+		        	</div>
+		        </div>
+		        <div class="swiper-slide slide4">
+		        	<div class="title">У нас есть все</div>
+		        	<div class="title_description">для вашей тайской кухни</div>
+		        	<ul>
+		        		<li>Том Ям</li>
+		        		<li>Тайские фрукты</li>
+		        		<li>Кокосовое молоко</li>
+		        		<li>Тайский рис</li>
+		        		<li>Соус Пад Тай</li>
+		        	</ul>
+		        	<div class="finalWords">и многое другое</div>
+		        	<div class="price">
+		        		<span>от</span>
+		        		<span class="circle">
+		        			<span class="number">80</span>
+		        			<span class="money">рублей</span>
+		        		</span>
+		        	</div>
+		        </div>
+		        <div class="swiper-slide slide5">
+		        	<div class="title">У нас есть все</div>
+		        	<div class="title_description">для вашей тайской кухни</div>
+		        	<ul>
+		        		<li>Том Ям</li>
+		        		<li>Тайские фрукты</li>
+		        		<li>Кокосовое молоко</li>
+		        		<li>Тайский рис</li>
+		        		<li>Соус Пад Тай</li>
+		        	</ul>
+		        	<div class="finalWords">и многое другое</div>
+		        	<div class="price">
+		        		<span>от</span>
+		        		<span class="circle">
+		        			<span class="number">80</span>
+		        			<span class="money">рублей</span>
+		        		</span>
+		        	</div>
+		        </div>
+		    </div>
+		    <div class="swiper-pagination"></div>
+
+		    <div class="swiper-button-prev"></div>
+		    <div class="swiper-button-next"></div>
+		</div>
+		<div class="advantages">
+			<div class="advBlock">
+				<div class="img_wrap"><img src="img/circled_arrows.png" alt=""></div>
+				<p>Мы принимаем к возврату любой товар, который Вам не подошёл</p>
+			</div>
+			<div class="advBlock">
+				<div class="img_wrap"><img src="img/envelope.png" alt=""></div>
+				<p>Мы выдаем свои скидочные карты всем нашим постоянным покупателям</p>
+			</div>
+			<div class="advBlock">
+				<div class="img_wrap"><img src="img/box.png" alt=""></div>
+				<p>Доставка, отправка товара осуществляется в день заказа по всему миру</p>
+			</div>
+			<div class="advBlock">
+				<div class="img_wrap"><img src="img/prize.png" alt=""></div>
+				<p>Мы гарантируем Вам надлежащее качество всей продукции</p>
+			</div>
+			<div class="advBlock">
+				<div class="img_wrap"><img src="img/care_hand.png" alt=""></div>
+				<p>Мы предлагаем самые качественные, и полезные паназиатские продукты</p>
+			</div>
+			<div class="advBlock">
+				<div class="img_wrap"><img src="img/coin_pig.png" alt=""></div>
+				<p>Сравните наши цены с другими магазинами и Вы сразу увидите разницу</p>
+			</div>
+		</div>
+	</section>
+	<section class="category">
+		<div class="category_block block1">
+			<img src="img/cat_trado.jpg" alt="">
+			<div class="logo"><img src="img/logo_trado.png" alt=""></div>
+			<p>Традо</p>
+		</div>
+		<div class="category_block block2">
+			<img src="img/cat_spices.jpg" alt="">
+			<p>Специи и травы</p>
+		</div>
+		<div class="category_block block3 big">
+			<p>Категории товаров</p>
+		</div>
+		<div class="category_block block4">
+			<img src="img/cat_spicemix.jpg" alt="">
+			<p>Смесь специй (масалы)</p>
+		</div>
+		<div class="category_block block5">
+			<img src="img/cat_rice.jpg" alt="">
+			<p>Рис</p>
+		</div>
+		<div class="category_block block6">
+			<img src="img/cat_souces.jpg" alt="">
+			<p>Соусы и паста</p>
+		</div>
+		<div class="category_block block7">
+			<img src="img/cat_seeds.jpg" alt="">
+			<p>Зерно, семена, мука</p>
+		</div>
+		<div class="category_block block8">
+			<img src="img/cat_pasta.jpg" alt="">
+			<p>Лапша и вермишель</p>
+		</div>
+		<div class="category_block block9">
+			<img src="img/cat_konservy.jpg" alt="">
+			<p>Консервированые овощи и фрукты</p>
+		</div>
+		<div class="category_block block10">
+			<img src="img/cat_vegans.jpg" alt="">
+			<p>Веганские продукты</p>
+		</div>
+		<div class="category_block block11">
+			<img src="img/cat_cocnut.jpg" alt="">
+			<p>Кокосовое молоко</p>
+		</div>
+		<div class="category_block block12">
+			<img src="img/cat_oil.jpg" alt="">
+			<p>Масла</p>
+		</div>
+		<div class="category_block block13">
+			<img src="img/cat_coffee.jpg" alt="">
+			<p>Чаи и кофе</p>
+		</div>
+		<div class="category_block block14">
+			<img src="img/cat_sweets.jpg" alt="">
+			<p>Сладости</p>
+		</div>
+		<div class="category_block block15">
+			<img src="img/cat_snack.jpg" alt="">
+			<p>Снеки</p>
+		</div>
+		<div class="category_block block16">
+			<img src="img/cat_sugarreplace.jpg" alt="">
+			<p>Сахарозаменители</p>
+		</div>
+		<div class="category_block block17">
+			<img src="img/cat_arabparfumrie.jpg" alt="">
+			<p>Арабская парфюмерия</p>
+		</div>
+		<div class="category_block block18">
+			<img src="img/cat_aurproducts.jpg" alt="">
+			<p>Аюрведическая продукция</p>
+		</div>
+		<div class="category_block block19">
+			<img src="img/cat_aurcosmetics.jpg" alt="">
+			<p>Аюрведическая косметика</p>
+		</div>
+		<div class="category_block block20">
+			<img src="img/cat_blagovonii.jpg" alt="">
+			<p>Благовония</p>
+		</div>
+		<div class="category_block block21">
+			<img src="img/cat_drinks.jpg" alt="">
+			<p>Напитки / жидкие продукты</p>
+		</div>
+		<div class="category_block block22">
+			<img src="img/cat_thai.jpg" alt="">
+			<p>Тайская кухня</p>
+		</div>
+		<div class="category_block block23">
+			<img src="img/cat_nosugar.jpg" alt="">
+			<p>Продукты без сахара</p>
+		</div>
+	</section>
+	<section class="white">
+		<h2>Хиты продаж</h2>
+		<div class="hitsSlider">
+	        <div class="swiper-slide slide1">
+	        	<div class="label hit">Хит</div>
+	        	<div class="img_wrap"><img src="img/curcuma.jpg" alt=""></div>
+	        	<div class="title">Куркума молотая с повышенным содержанием куркумина</div>
+	        	<div class="price">
+	        		<span class="sum">150</span>
+	        		<span class="money"> руб.</span>
+	        	</div>
+	        	<button class="addToBasket">В корзину</button>
+	        </div>
+	        <div class="swiper-slide slide2">
+	        	<div class="img_wrap"><img src="img/baraka.jpg" alt=""></div>
+	        	<div class="title">Капсулы с черным тмином Baraka plus</div>
+	        	<div class="price">
+	        		<span class="sum">360</span>
+	        		<span class="money"> руб.</span>
+	        	</div>
+	        	<button class="addToBasket">В корзину</button>
+	        </div>
+	        <div class="swiper-slide slide3">
+	        	<div class="img_wrap"><img src="img/chidwa.jpg" alt=""></div>
+	        	<div class="title">Рисовые хлопья Халдирамс Диет Чивда</div>
+	        	<div class="price">
+	        		<span class="sum">168</span>
+	        		<span class="money"> руб.</span>
+	        	</div>
+	        	<button class="addToBasket">В корзину</button>
+	        </div>
+	        <div class="swiper-slide slide4">
+	        	<div class="img_wrap"><img src="img/curcuma.jpg" alt=""></div>
+	        	<div class="title">Куркума молотая с повышенным содержанием куркумина</div>
+	        	<div class="price">
+	        		<span class="sum">360</span>
+	        		<span class="money"> руб.</span>
+	        	</div>
+	        	<button class="addToBasket">В корзину</button>
+	        </div>
+	        <div class="swiper-slide slide5">
+	        	<div class="img_wrap"><img src="img/baraka.jpg" alt=""></div>
+	        	<div class="title">Капсулы с черным тмином Baraka plus</div>
+	        	<div class="price">
+	        		<span class="sum">150</span>
+	        		<span class="money"> руб.</span>
+	        	</div>
+	        	<button class="addToBasket">В корзину</button>
+	        </div>
+	        <div class="swiper-slide slide6">
+	        	<div class="img_wrap"><img src="img/curcuma.jpg" alt=""></div>
+	        	<div class="title">Куркума молотая с повышенным содержанием куркумина</div>
+	        	<div class="price">
+	        		<span class="sum">150</span>
+	        		<span class="money"> руб.</span>
+	        	</div>
+	        	<button class="addToBasket">В корзину</button>
+	        </div>
+	        <div class="swiper-slide slide7">
+	        	<div class="img_wrap"><img src="img/baraka.jpg" alt=""></div>
+	        	<div class="title">Капсулы с черным тмином Baraka plus</div>
+	        	<div class="price">
+	        		<span class="sum">360</span>
+	        		<span class="money"> руб.</span>
+	        	</div>
+	        	<button class="addToBasket">В корзину</button>
+	        </div>
+	        <div class="swiper-slide slide8">
+	        	<div class="img_wrap"><img src="img/chidwa.jpg" alt=""></div>
+	        	<div class="title">Рисовые хлопья Халдирамс Диет Чивда</div>
+	        	<div class="price">
+	        		<span class="sum">168</span>
+	        		<span class="money"> руб.</span>
+	        	</div>
+	        	<button class="addToBasket">В корзину</button>
+	        </div>
+	        <div class="swiper-slide slide9">
+	        	<div class="img_wrap"><img src="img/curcuma.jpg" alt=""></div>
+	        	<div class="title">Куркума молотая с повышенным содержанием куркумина</div>
+	        	<div class="price">
+	        		<span class="sum">360</span>
+	        		<span class="money"> руб.</span>
+	        	</div>
+	        	<button class="addToBasket">В корзину</button>
+	        </div>
+	        <div class="swiper-slide slide10">
+	        	<div class="img_wrap"><img src="img/baraka.jpg" alt=""></div>
+	        	<div class="title">Капсулы с черным тмином Baraka plus</div>
+	        	<div class="price">
+	        		<span class="sum">150</span>
+	        		<span class="money"> руб.</span>
+	        	</div>
+	        	<button class="addToBasket">В корзину</button>
+	        </div>
+		</div>
+	</section>
+	<section class="grey">
+		<h2>Новинки</h2>
+		<div class="hitsSlider">
+	        <div class="swiper-slide slide1">
+	        	<div class="label new">Хит</div>
+	        	<div class="img_wrap"><img src="img/curcuma.jpg" alt=""></div>
+	        	<div class="title">Куркума молотая с повышенным содержанием куркумина</div>
+	        	<div class="price">
+	        		<span class="sum">150</span>
+	        		<span class="money"> руб.</span>
+	        	</div>
+	        	<button class="addToBasket">В корзину</button>
+	        </div>
+	        <div class="swiper-slide slide2">
+	        	<div class="img_wrap"><img src="img/baraka.jpg" alt=""></div>
+	        	<div class="title">Капсулы с черным тмином Baraka plus</div>
+	        	<div class="price">
+	        		<span class="sum">360</span>
+	        		<span class="money"> руб.</span>
+	        	</div>
+	        	<button class="addToBasket">В корзину</button>
+	        </div>
+	        <div class="swiper-slide slide3">
+	        	<div class="img_wrap"><img src="img/chidwa.jpg" alt=""></div>
+	        	<div class="title">Рисовые хлопья Халдирамс Диет Чивда</div>
+	        	<div class="price">
+	        		<span class="sum">168</span>
+	        		<span class="money"> руб.</span>
+	        	</div>
+	        	<button class="addToBasket">В корзину</button>
+	        </div>
+	        <div class="swiper-slide slide4">
+	        	<div class="img_wrap"><img src="img/curcuma.jpg" alt=""></div>
+	        	<div class="title">Куркума молотая с повышенным содержанием куркумина</div>
+	        	<div class="price">
+	        		<span class="sum">360</span>
+	        		<span class="money"> руб.</span>
+	        	</div>
+	        	<button class="addToBasket">В корзину</button>
+	        </div>
+	        <div class="swiper-slide slide5">
+	        	<div class="img_wrap"><img src="img/baraka.jpg" alt=""></div>
+	        	<div class="title">Капсулы с черным тмином Baraka plus</div>
+	        	<div class="price">
+	        		<span class="sum">150</span>
+	        		<span class="money"> руб.</span>
+	        	</div>
+	        	<button class="addToBasket">В корзину</button>
+	        </div>
+	        <div class="swiper-slide slide6">
+	        	<div class="img_wrap"><img src="img/curcuma.jpg" alt=""></div>
+	        	<div class="title">Куркума молотая с повышенным содержанием куркумина</div>
+	        	<div class="price">
+	        		<span class="sum">150</span>
+	        		<span class="money"> руб.</span>
+	        	</div>
+	        	<button class="addToBasket">В корзину</button>
+	        </div>
+	        <div class="swiper-slide slide7">
+	        	<div class="img_wrap"><img src="img/baraka.jpg" alt=""></div>
+	        	<div class="title">Капсулы с черным тмином Baraka plus</div>
+	        	<div class="price">
+	        		<span class="sum">360</span>
+	        		<span class="money"> руб.</span>
+	        	</div>
+	        	<button class="addToBasket">В корзину</button>
+	        </div>
+	        <div class="swiper-slide slide8">
+	        	<div class="img_wrap"><img src="img/chidwa.jpg" alt=""></div>
+	        	<div class="title">Рисовые хлопья Халдирамс Диет Чивда</div>
+	        	<div class="price">
+	        		<span class="sum">168</span>
+	        		<span class="money"> руб.</span>
+	        	</div>
+	        	<button class="addToBasket">В корзину</button>
+	        </div>
+	        <div class="swiper-slide slide9">
+	        	<div class="img_wrap"><img src="img/curcuma.jpg" alt=""></div>
+	        	<div class="title">Куркума молотая с повышенным содержанием куркумина</div>
+	        	<div class="price">
+	        		<span class="sum">360</span>
+	        		<span class="money"> руб.</span>
+	        	</div>
+	        	<button class="addToBasket">В корзину</button>
+	        </div>
+	        <div class="swiper-slide slide10">
+	        	<div class="img_wrap"><img src="img/baraka.jpg" alt=""></div>
+	        	<div class="title">Капсулы с черным тмином Baraka plus</div>
+	        	<div class="price">
+	        		<span class="sum">150</span>
+	        		<span class="money"> руб.</span>
+	        	</div>
+	        	<button class="addToBasket">В корзину</button>
+	        </div>
+		</div>
+	</section>
+	<section class="white">
+		<h2>Распродажа</h2>
+		<div class="hitsSlider">
+	        <div class="swiper-slide slide1">
+	        	<div class="label sale">10%</div>
+	        	<div class="img_wrap"><img src="img/curcuma.jpg" alt=""></div>
+	        	<div class="title">Куркума молотая с повышенным содержанием куркумина</div>
+	        	<div class="price">
+	        		<span class="sum">150</span>
+	        		<span class="money"> руб.</span>
+	        	</div>
+	        	<button class="addToBasket">В корзину</button>
+	        </div>
+	        <div class="swiper-slide slide2">
+	        	<div class="label sale">20%</div>
+	        	<div class="img_wrap"><img src="img/baraka.jpg" alt=""></div>
+	        	<div class="title">Капсулы с черным тмином Baraka plus</div>
+	        	<div class="price">
+	        		<span class="sum">360</span>
+	        		<span class="money"> руб.</span>
+	        	</div>
+	        	<button class="addToBasket">В корзину</button>
+	        </div>
+	        <div class="swiper-slide slide3">
+	        	<div class="label sale">15%</div>
+	        	<div class="img_wrap"><img src="img/chidwa.jpg" alt=""></div>
+	        	<div class="title">Рисовые хлопья Халдирамс Диет Чивда</div>
+	        	<div class="price">
+	        		<span class="sum">168</span>
+	        		<span class="money"> руб.</span>
+	        	</div>
+	        	<button class="addToBasket">В корзину</button>
+	        </div>
+	        <div class="swiper-slide slide4">
+	        	<div class="label sale">10%</div>
+	        	<div class="img_wrap"><img src="img/curcuma.jpg" alt=""></div>
+	        	<div class="title">Куркума молотая с повышенным содержанием куркумина</div>
+	        	<div class="price">
+	        		<span class="sum">360</span>
+	        		<span class="money"> руб.</span>
+	        	</div>
+	        	<button class="addToBasket">В корзину</button>
+	        </div>
+	        <div class="swiper-slide slide5">
+	        	<div class="label sale">50%</div>
+	        	<div class="img_wrap"><img src="img/baraka.jpg" alt=""></div>
+	        	<div class="title">Капсулы с черным тмином Baraka plus</div>
+	        	<div class="price">
+	        		<span class="sum">150</span>
+	        		<span class="money"> руб.</span>
+	        	</div>
+	        	<button class="addToBasket">В корзину</button>
+	        </div>
+	        <div class="swiper-slide slide6">
+	        	<div class="label sale">5%</div>
+	        	<div class="img_wrap"><img src="img/curcuma.jpg" alt=""></div>
+	        	<div class="title">Куркума молотая с повышенным содержанием куркумина</div>
+	        	<div class="price">
+	        		<span class="sum">150</span>
+	        		<span class="money"> руб.</span>
+	        	</div>
+	        	<button class="addToBasket">В корзину</button>
+	        </div>
+	        <div class="swiper-slide slide7">
+	        	<div class="label sale">10%</div>
+	        	<div class="img_wrap"><img src="img/baraka.jpg" alt=""></div>
+	        	<div class="title">Капсулы с черным тмином Baraka plus</div>
+	        	<div class="price">
+	        		<span class="sum">360</span>
+	        		<span class="money"> руб.</span>
+	        	</div>
+	        	<button class="addToBasket">В корзину</button>
+	        </div>
+	        <div class="swiper-slide slide8">
+	        	<div class="label sale">10%</div>
+	        	<div class="img_wrap"><img src="img/chidwa.jpg" alt=""></div>
+	        	<div class="title">Рисовые хлопья Халдирамс Диет Чивда</div>
+	        	<div class="price">
+	        		<span class="sum">168</span>
+	        		<span class="money"> руб.</span>
+	        	</div>
+	        	<button class="addToBasket">В корзину</button>
+	        </div>
+	        <div class="swiper-slide slide9">
+	        	<div class="label sale">10%</div>
+	        	<div class="img_wrap"><img src="img/curcuma.jpg" alt=""></div>
+	        	<div class="title">Куркума молотая с повышенным содержанием куркумина</div>
+	        	<div class="price">
+	        		<span class="sum">360</span>
+	        		<span class="money"> руб.</span>
+	        	</div>
+	        	<button class="addToBasket">В корзину</button>
+	        </div>
+	        <div class="swiper-slide slide10">
+	        	<div class="label sale">10%</div>
+	        	<div class="img_wrap"><img src="img/baraka.jpg" alt=""></div>
+	        	<div class="title">Капсулы с черным тмином Baraka plus</div>
+	        	<div class="price">
+	        		<span class="sum">150</span>
+	        		<span class="money"> руб.</span>
+	        	</div>
+	        	<button class="addToBasket">В корзину</button>
+	        </div>
+		</div>
+	</section>
+	<section class="white brands">
+		<h2>Брэнды</h2>
+		<div class="brandsSlider">
+	        <div class="swiper-slide slide1">
+	        	<div class="brand_wrap">
+	        		<img src="img/brand_alishan.png" alt="">
+	        	</div>
+	        </div>
+	        <div class="swiper-slide slide2">
+	        	<div class="brand_wrap">
+	        		<img src="img/brand_arroy.png" alt="">
+	        	</div>
+	        </div>
+	        <div class="swiper-slide slide3">
+	        	<div class="brand_wrap">
+	        		<img src="img/brand_bioaqua.png" alt="">
+	        	</div>
+	        </div>
+	        <div class="swiper-slide slide4">
+	        	<div class="brand_wrap">
+	        		<img src="img/brand_dabur.png" alt="">
+	        	</div>
+	        </div>
+	        <div class="swiper-slide slide5">
+	        	<div class="brand_wrap">
+	        		<img src="img/brand_goods.png" alt="">
+	        	</div>
+	        </div>
+	        <div class="swiper-slide slide6">
+	        	<div class="brand_wrap">
+	        		<img src="img/brand_haldirams.png" alt="">
+	        	</div>
+	        </div>
+	        <div class="swiper-slide slide7">
+	        	<div class="brand_wrap">
+	        		<img src="img/brand_himalaya.png" alt="">
+	        	</div>
+	        </div>
+	        <div class="swiper-slide slide8">
+	        	<div class="brand_wrap">
+	        		<img src="img/brand_nemani.png" alt="">
+	        	</div>
+	        </div>
+	        <div class="swiper-slide slide1">
+	        	<div class="brand_wrap">
+	        		<img src="img/brand_alishan.png" alt="">
+	        	</div>
+	        </div>
+	        <div class="swiper-slide slide2">
+	        	<div class="brand_wrap">
+	        		<img src="img/brand_arroy.png" alt="">
+	        	</div>
+	        </div>
+	        <div class="swiper-slide slide3">
+	        	<div class="brand_wrap">
+	        		<img src="img/brand_bioaqua.png" alt="">
+	        	</div>
+	        </div>
+	        <div class="swiper-slide slide4">
+	        	<div class="brand_wrap">
+	        		<img src="img/brand_dabur.png" alt="">
+	        	</div>
+	        </div>
+	        <div class="swiper-slide slide5">
+	        	<div class="brand_wrap">
+	        		<img src="img/brand_goods.png" alt="">
+	        	</div>
+	        </div>
+	        <div class="swiper-slide slide6">
+	        	<div class="brand_wrap">
+	        		<img src="img/brand_haldirams.png" alt="">
+	        	</div>
+	        </div>
+	        <div class="swiper-slide slide7">
+	        	<div class="brand_wrap">
+	        		<img src="img/brand_himalaya.png" alt="">
+	        	</div>
+	        </div>
+	        <div class="swiper-slide slide8">
+	        	<div class="brand_wrap">
+	        		<img src="img/brand_nemani.png" alt="">
+	        	</div>
+	        </div>
+		</div>
+	</section>
+	<section class="map">
+		<div class="contacts">
+			<div class="contacts_wrap">
+				<div class="phone"><a href="tel:+89778802693"><i class="fa fa-phone" aria-hidden="true"></i>+7 (977) 880-26-93</a></div>
+				<div class="workTime"><i class="fa fa-clock-o" aria-hidden="true"></i>Ежедневно c 10:00 до 20:00</div>
+				<div class="adress">
+					<i class="fa fa-map-marker" aria-hidden="true"></i>г. Москва, ул. Новокосинская 14 к7
+				</div>
+				<div class="mail"><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:ksenwork@bk.ru">ksenwork@bk.ru</a></div>
+			</div>
+		</div>
+		<div class="map_wrap">
+			<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A1613216830fb1cadcda2dea3a53cd37c0ca85c97ec3b2c7813e0ecd360136bab&amp;source=constructor" width="100%" height="100%" frameborder="0"></iframe>
+		</div>	</section>
+	<footer>
+		<div class="copyright">
+			<div class="logo_wrap"><a href="index.html"><img src="img/logo_white.png" alt=""></a></div>
+			<div class="rights">&copy ИндусПродукты 2018. Права защищены</div>
+			<div class="payment">
+				<span>Способы оплаты: </span>
+				<span><img src="img/sberbank.png" alt=""></span>
+				<span><img src="img/webmoney.png" alt=""></span>
+				<span><img src="img/yandex.png" alt=""></span>
+				<span><img src="img/paypal.png" alt=""></span>
+				<span><img src="img/visa.png" alt=""></span>
+				<span><img src="img/mastercard.png" alt=""></span>
+			</div>
+			<div class="social">
+				<span>Мы в соцсетях: </span>
+				<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+				<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+				<a href="#"><i class="fa fa-vk" aria-hidden="true"></i></a>
+			</div>
+		</div>
+		<div class="policies">
+			<a href="#">Политика конфиденциальности</a>
+			<a href="#">Пользовательское соглашение</a>
+			<a href="#">Мобильная версия сайта</a>
+		</div>
+	</footer>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="libs/swiper/swiper.min.js"></script>
+<script src="libs/owlcarousel/owl.carousel.min.js"></script>
+<script src="js/common.js"></script>
+
+</body>
+</html>
