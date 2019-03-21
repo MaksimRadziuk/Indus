@@ -733,4 +733,8 @@ section.brands .brandsSlider .swipe-slide {
   section.main .swiper-container-horizontal>.swiper-pagination-bullets {
     bottom: 40px;
   }
+  section.main .mainSlider .swiper-button-prev,
+  section.main .mainSlider .swiper-button-next {
+    top: 45%;
+  }
 }
