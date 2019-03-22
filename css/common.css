@@ -488,6 +488,82 @@ footer .policies a:hover {
     display: none;
   }
 }
+@media all and (max-width: 940px) {
+  header .basket_wrap .description {
+    display: none;
+  }
+  header .basket_wrap {
+    width: auto;
+  }
+}
+@media all and (max-width: 900px) {
+  footer .copyright .payment>span {
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 1.5vw;
+  }
+  footer .copyright .payment>span.sber {
+    width: 35px;
+    height: 35px;
+    background-image: url(../img/mob_sberbank.png);
+  }
+  footer .copyright .payment>span.wbm {
+    width: 35px;
+    height: 35px;
+    background-image: url(../img/mob_webmoney.png);
+  }
+  footer .copyright .payment>span.ynd {
+    width: 35px;
+    height: 35px;
+    background-image: url(../img/mob_yandex.png);
+  }
+  footer .copyright .payment>span.ppl {
+    width: 35px;
+    height: 35px;
+    background-image: url(../img/mob_paypal.png);
+  }
+  footer .copyright .payment>span.sber img,
+  footer .copyright .payment>span.wbm img,
+  footer .copyright .payment>span.ynd img,
+  footer .copyright .payment>span.ppl img {
+    display: none;
+  }
+  footer .copyright .payment>span.visa img,
+  footer .copyright .payment>span.msc img {
+    height: 32px;
+  }
+  footer .copyright .payment>span.visa {
+    margin-right: 1vw;
+  }
+  footer .copyright .payment>span.msc {
+    margin-right: 0;
+  }
+}
+@media all and (max-width: 800px) {
+  section.map {
+    height: 480px;
+  }
+  section.map .contacts {
+    position: relative;
+    width: 100%;
+    height: 260px;
+    left: auto;
+    background-size: 50% auto;
+  }
+  section.map .map_wrap {
+    height: 220px;
+  }
+  section.map .contacts_wrap {
+    padding: 40px 20px 30px 20px;
+  }
+  section.map .contacts_wrap>div {
+    margin-bottom: 25px;
+  }
+  section.map .contacts_wrap {
+    background-color: rgba(148,74,78,.9);
+  }
+}
 
 @media all and (max-height: 950px) {
   section.map {

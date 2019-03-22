@@ -647,15 +647,87 @@ section.brands .brandsSlider .swipe-slide {
     display: none;
   }
   section.category .category_block p {
-    top: 79%;
+    top: 76%;
+    font-size: 14px;
+    font-weight: 700;
   }
 }
 @media all and (max-width: 1100px) {
   section.main .advBlock p {
     font-size: 10px;
   }
+  section.main .mainSlider .swiper-slide .title {
+    font-size: 40px;
+    margin-top: 30px;
+  }
+  section.main .mainSlider .swiper-slide .price {
+    top: 170px;
+  }
+  section.main .mainSlider .swiper-slide .title_description {
+    font-size: 32px;
+    margin-bottom: 35px;
+  }
+  section.main .mainSlider .swiper-slide .finalWords {
+    font-size: 28px;
+  }
 }
+@media all and (max-width: 800px) {
+  .hitsSlider .owl-nav button.owl-next {
+    right: -40px;
+  }
+  .hitsSlider .owl-nav button.owl-prev {
+    left: -40px;
+  }
+  .hitsSlider {
+    width: 85%;
+  }
+  .brandsSlider .owl-nav button.owl-next {
+    right: -40px;
+  }
+  .brandsSlider .owl-nav button.owl-prev {
+    left: -40px;
+  }
+  section.main .advantages {
+    position: relative;
+    background-color: #392432;
+    height: 350px;
+    max-height: 350px;
+    display: block;
+    padding: 20px 0;
+  }
+  section.main .advBlock {
+    width: 32.9%;
+    height: 150px;
+    padding: 20px;
+    display: inline-block;
+    border-top: 1px solid #70646b;
+  }
 
+  section.main .advBlock:nth-child(1),
+  section.main .advBlock:nth-child(2),
+  section.main .advBlock:nth-child(3) {
+    border-top: none;
+    padding-top: 0;
+  }
+  section.main .advBlock:nth-child(3) {
+    border-right: none;
+  }
+  section.main {
+    height: auto;
+  }
+  section.main .mainSlider {
+    height: 650px;
+  }
+  section.main .mainSlider .swiper-button-next {
+    right: 30px;
+  }
+  section.main .mainSlider .swiper-button-prev {
+    left: 30px;
+  }
+  section.main .advBlock p {
+    font-size: 14px;
+  }
+}
 
 
 
